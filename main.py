@@ -19,6 +19,59 @@ def get_and_print_user_input():
     return user_input
 
 def processinput(input):
+    functions = [
+        {
+            "name": "add_radio_button",
+            "description": "add a radio button to the application UI",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "label": {
+                        "type": "string",
+                        "description": "The label for the radio button",
+                    },
+                    "option1":
+                        {"type": "string", 
+                         "description": "The first option for the radio button", },
+                    "option2":
+                        {"type": "string", 
+                         "description": "The second option for the radio button", },
+                    "option3":
+                        {"type": "string", 
+                         "description": "The third option for the radio button", },
+                    "option4":
+                        {"type": "string", 
+                         "description": "The fourth option for the radio button", }
+                },
+            },
+        },
+        {
+            "name": "add_submit_button",
+            "description": "add a submit button to the application UI",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "label": {
+                        "type": "string",
+                        "description": "The label for the submit button",
+                    },
+                },
+            },
+        },
+        {
+            "name": "add_text_input",
+            "description": "add a text input field to the application UI",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "label": {
+                        "type": "string",
+                        "description": "The label for the text input field",
+                    },
+                },
+            },
+        }       
+    ]
     response = openai.ChatCompletion.create(
     model="gpt-4",
     messages=[
@@ -31,6 +84,8 @@ def processinput(input):
         "content": input
         }
     ],
+    functions=functions,
+    function_call="auto",
     temperature=1,
     max_tokens=4000,
     top_p=1,
