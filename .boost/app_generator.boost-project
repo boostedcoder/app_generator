@@ -1,13 +1,11 @@
 {
-  "dataFormatVersion": "1.5.2",
+  "dataFormatVersion": "1.6.0",
   "summary": {
     "projectName": "app_generator",
     "summaryUrl": ".boost/app_generator.summary.boost-notebook",
-    "filesToAnalyze": 746,
-    "filesAnalyzed": 0,
-    "issues": [
-      "No issues found"
-    ]
+    "filesToAnalyze": 1,
+    "filesAnalyzed": 1,
+    "issues": []
   },
   "sectionSummary": {
     "summary": {
@@ -18,21 +16,486 @@
       "issueCells": 0,
       "totalCells": 0,
       "filesAnalyzed": 0
+    },
+    "explainCode": {
+      "analysisType": "explainCode",
+      "status": "completed",
+      "completedCells": 10,
+      "errorCells": 0,
+      "issueCells": 0,
+      "totalCells": 10,
+      "filesAnalyzed": 6
+    },
+    "flowDiagram": {
+      "analysisType": "flowDiagram",
+      "status": "completed",
+      "completedCells": 10,
+      "errorCells": 0,
+      "issueCells": 0,
+      "totalCells": 10,
+      "filesAnalyzed": 6
+    },
+    "bugAnalysisList": {
+      "analysisType": "bugAnalysisList",
+      "status": "completed",
+      "completedCells": 10,
+      "errorCells": 0,
+      "issueCells": 0,
+      "totalCells": 10,
+      "filesAnalyzed": 6
+    },
+    "bugAnalysis": {
+      "analysisType": "bugAnalysis",
+      "status": "not-started",
+      "completedCells": 0,
+      "errorCells": 0,
+      "issueCells": 0,
+      "totalCells": 1,
+      "filesAnalyzed": 1
+    },
+    "performanceList": {
+      "analysisType": "performanceList",
+      "status": "completed",
+      "completedCells": 10,
+      "errorCells": 0,
+      "issueCells": 0,
+      "totalCells": 10,
+      "filesAnalyzed": 6
+    },
+    "performance": {
+      "analysisType": "performance",
+      "status": "not-started",
+      "completedCells": 0,
+      "errorCells": 0,
+      "issueCells": 0,
+      "totalCells": 2,
+      "filesAnalyzed": 1
+    },
+    "complianceCodeList": {
+      "analysisType": "complianceCodeList",
+      "status": "completed",
+      "completedCells": 10,
+      "errorCells": 0,
+      "issueCells": 0,
+      "totalCells": 10,
+      "filesAnalyzed": 6
+    },
+    "complianceCode": {
+      "analysisType": "complianceCode",
+      "status": "not-started",
+      "completedCells": 0,
+      "errorCells": 0,
+      "issueCells": 0,
+      "totalCells": 3,
+      "filesAnalyzed": 1
     }
   },
-  "files": {},
+  "files": {
+    "README.md": {
+      "sourceRelFile": "./README.md",
+      "notebookRelFile": ".boost/README.md.boost-notebook",
+      "totalCells": 1,
+      "completedCells": 1,
+      "errorCells": 0,
+      "issueCells": 0,
+      "sections": {
+        "explainCode": {
+          "analysisType": "explainCode",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        },
+        "flowDiagram": {
+          "analysisType": "flowDiagram",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        },
+        "bugAnalysisList": {
+          "analysisType": "bugAnalysisList",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        },
+        "performanceList": {
+          "analysisType": "performanceList",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        },
+        "complianceCodeList": {
+          "analysisType": "complianceCodeList",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        }
+      }
+    },
+    "requirements.txt": {
+      "sourceRelFile": "./requirements.txt",
+      "notebookRelFile": ".boost/requirements.txt.boost-notebook",
+      "totalCells": 1,
+      "completedCells": 1,
+      "errorCells": 0,
+      "issueCells": 0,
+      "sections": {
+        "explainCode": {
+          "analysisType": "explainCode",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        },
+        "flowDiagram": {
+          "analysisType": "flowDiagram",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        },
+        "bugAnalysisList": {
+          "analysisType": "bugAnalysisList",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        },
+        "performanceList": {
+          "analysisType": "performanceList",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        },
+        "complianceCodeList": {
+          "analysisType": "complianceCodeList",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        }
+      }
+    },
+    "LICENSE": {
+      "sourceRelFile": "./LICENSE",
+      "notebookRelFile": ".boost/LICENSE.boost-notebook",
+      "totalCells": 1,
+      "completedCells": 1,
+      "errorCells": 0,
+      "issueCells": 0,
+      "sections": {
+        "explainCode": {
+          "analysisType": "explainCode",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        },
+        "flowDiagram": {
+          "analysisType": "flowDiagram",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        },
+        "bugAnalysisList": {
+          "analysisType": "bugAnalysisList",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        },
+        "performanceList": {
+          "analysisType": "performanceList",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        },
+        "complianceCodeList": {
+          "analysisType": "complianceCodeList",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        }
+      }
+    },
+    ".vscode/extensions.json": {
+      "sourceRelFile": "./.vscode/extensions.json",
+      "notebookRelFile": ".boost/.vscode/extensions.json.boost-notebook",
+      "totalCells": 1,
+      "completedCells": 1,
+      "errorCells": 0,
+      "issueCells": 0,
+      "sections": {
+        "explainCode": {
+          "analysisType": "explainCode",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        },
+        "flowDiagram": {
+          "analysisType": "flowDiagram",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        },
+        "bugAnalysisList": {
+          "analysisType": "bugAnalysisList",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        },
+        "performanceList": {
+          "analysisType": "performanceList",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        },
+        "complianceCodeList": {
+          "analysisType": "complianceCodeList",
+          "status": "completed",
+          "completedCells": 1,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 1,
+          "filesAnalyzed": 1
+        }
+      }
+    },
+    "main.py": {
+      "sourceRelFile": "./main.py",
+      "notebookRelFile": ".boost/main.py.boost-notebook",
+      "totalCells": 5,
+      "completedCells": 5,
+      "errorCells": 0,
+      "issueCells": 3,
+      "sections": {
+        "explainCode": {
+          "analysisType": "explainCode",
+          "status": "completed",
+          "completedCells": 5,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 5,
+          "filesAnalyzed": 1
+        },
+        "flowDiagram": {
+          "analysisType": "flowDiagram",
+          "status": "completed",
+          "completedCells": 5,
+          "errorCells": 0,
+          "issueCells": 0,
+          "totalCells": 5,
+          "filesAnalyzed": 1
+        },
+        "bugAnalysisList": {
+          "analysisType": "bugAnalysisList",
+          "status": "completed",
+          "completedCells": 5,
+          "errorCells": 0,
+          "issueCells": 2,
+          "totalCells": 5,
+          "filesAnalyzed": 1,
+          "details": [
+            {
+              "lineNumber": 4,
+              "severity": 6,
+              "bugType": "Insecure Use of Environment Variables",
+              "description": "The code is using environment variables to store sensitive data (OPENAI_KEY). If an attacker gains access to the environment variables, they can compromise the security of the application.",
+              "solution": "It is recommended to use a secure method for storing sensitive data, such as a secure vault or secrets manager. Here is a link to the AWS Secrets Manager for reference: https://aws.amazon.com/secrets-manager/"
+            },
+            {
+              "lineNumber": 16,
+              "severity": 6,
+              "bugType": "Insecure Input Handling",
+              "description": "The function 'get_and_print_user_input' does not perform any validation or sanitization on the user input. This could lead to issues such as code injection, if the user input is used in a context where it is interpreted as code.",
+              "solution": "Always validate and sanitize user input to ensure it is safe. Python's built-in functions can be used for this purpose. For more information, refer to: https://realpython.com/python-input-output/#the-python-input-function"
+            }
+          ]
+        },
+        "performanceList": {
+          "analysisType": "performanceList",
+          "status": "completed",
+          "completedCells": 5,
+          "errorCells": 0,
+          "issueCells": 3,
+          "totalCells": 5,
+          "filesAnalyzed": 1,
+          "details": [
+            {
+              "lineNumber": 1,
+              "severity": 1,
+              "bugType": "Memory",
+              "description": "The code imports the entire 'os' and 'openai' libraries, which could be inefficient if only a few functions are used.",
+              "solution": "Import only the necessary functions from each library. For example, instead of 'import os', use 'from os import environ'."
+            },
+            {
+              "lineNumber": 5,
+              "severity": 2,
+              "bugType": "CPU",
+              "description": "The function 'set_openai_key' is called without any condition. If the key is already set, this will unnecessarily consume CPU cycles.",
+              "solution": "Check if the key is already set before calling the function."
+            },
+            {
+              "lineNumber": 7,
+              "severity": 1,
+              "bugType": "CPU",
+              "description": "The code uses exception handling to control the flow of the program, which can be expensive in terms of CPU usage.",
+              "solution": "Use 'if' statements to check if the key is in the environment variables instead of exception handling."
+            },
+            {
+              "lineNumber": 13,
+              "severity": 1,
+              "bugType": "I/O",
+              "description": "The function uses standard I/O functions for user input and output. These operations are generally slow and can be a bottleneck for performance if used extensively in a tight loop.",
+              "solution": "As this function is used for user interaction, the impact on performance is minimal. However, if this pattern is used in other parts of the code where performance is critical, consider using more efficient I/O methods or buffering. For more information, refer to the Python documentation on I/O: https://docs.python.org/3/tutorial/inputoutput.html"
+            },
+            {
+              "lineNumber": 67,
+              "severity": 5,
+              "bugType": "CPU",
+              "description": "The code uses the 'gpt-4' model of the OpenAI API, which is a large model and can be CPU-intensive.",
+              "solution": "Consider using a smaller model if the task allows it to reduce CPU usage. Refer to OpenAI's model guide for more information: https://platform.openai.com/docs/guides/models"
+            },
+            {
+              "lineNumber": 69,
+              "severity": 7,
+              "bugType": "Memory",
+              "description": "The 'max_tokens' parameter is set to a high value (4000). This can lead to high memory usage if the model generates a large number of tokens.",
+              "solution": "Reduce the 'max_tokens' parameter if possible, or ensure sufficient memory is available. Refer to OpenAI's guide for more information: https://platform.openai.com/docs/guides/fine-tuning"
+            },
+            {
+              "lineNumber": 61,
+              "severity": 4,
+              "bugType": "Network",
+              "description": "The 'openai.ChatCompletion.create' function sends a request to the OpenAI API, which can be slow if the network connection is poor or the server is busy.",
+              "solution": "Consider using a local model if possible to avoid network latency. If a network request is necessary, handle potential network errors and timeouts gracefully."
+            }
+          ]
+        },
+        "complianceCodeList": {
+          "analysisType": "complianceCodeList",
+          "status": "completed",
+          "completedCells": 5,
+          "errorCells": 0,
+          "issueCells": 2,
+          "totalCells": 5,
+          "filesAnalyzed": 1,
+          "details": [
+            {
+              "lineNumber": 8,
+              "severity": 3,
+              "bugType": "GDPR",
+              "description": "The application is using an environment variable to store the OPENAI_KEY. If this key is used to access or process personal data, it could potentially lead to a violation of GDPR if not properly protected.",
+              "solution": "Encrypt sensitive data in environment variables. Consider using a secret manager like AWS Secrets Manager or Hashicorp Vault to securely manage secrets.",
+              "webLink": "https://gdpr-info.eu/"
+            },
+            {
+              "lineNumber": 8,
+              "severity": 3,
+              "bugType": "PCI DSS",
+              "description": "The application is storing sensitive data (OPENAI_KEY) in environment variables, which could be in violation of PCI DSS requirements if the key is used to access or process cardholder data and is not properly protected.",
+              "solution": "Encrypt sensitive data in environment variables. Consider using a secret manager like AWS Secrets Manager or Hashicorp Vault to securely manage secrets.",
+              "webLink": "https://www.pcisecuritystandards.org/pci_security/"
+            },
+            {
+              "lineNumber": 8,
+              "severity": 3,
+              "bugType": "HIPAA",
+              "description": "The application is storing sensitive data (OPENAI_KEY) in environment variables, which could be in violation of HIPAA requirements if the key is used to access or process protected health information (PHI) and is not properly protected.",
+              "solution": "Encrypt sensitive data in environment variables. Consider using a secret manager like AWS Secrets Manager or Hashicorp Vault to securely manage secrets.",
+              "webLink": "https://www.hhs.gov/hipaa/index.html"
+            },
+            {
+              "lineNumber": 14,
+              "severity": 3,
+              "bugType": "GDPR",
+              "description": "The method 'get_and_print_user_input' is collecting user input without explicit consent or information on how the data will be used, stored, or shared, which can be a GDPR compliance issue.",
+              "solution": "Add a clear and understandable consent request before collecting user data, informing the user about how their data will be used, stored, or shared. For example, you could add a disclaimer or prompt before the input request.",
+              "source": "https://gdpr-info.eu/issues/consent/"
+            },
+            {
+              "lineNumber": 16,
+              "severity": 2,
+              "bugType": "PCI DSS",
+              "description": "The method 'get_and_print_user_input' is displaying user input on the console, which can lead to sensitive data exposure if the input contains payment card data. This could potentially violate PCI DSS requirements.",
+              "solution": "Avoid displaying user input on the console or logs. If it's necessary, make sure to mask or encrypt sensitive data.",
+              "source": "https://www.pcisecuritystandards.org/documents/PCI_DSS_v3-2-1.pdf"
+            },
+            {
+              "lineNumber": 16,
+              "severity": 2,
+              "bugType": "HIPAA",
+              "description": "The method 'get_and_print_user_input' is displaying user input on the console, which can lead to sensitive data exposure if the input contains protected health information (PHI). This could potentially violate HIPAA requirements.",
+              "solution": "Avoid displaying user input on the console or logs. If it's necessary, make sure to mask or encrypt sensitive data.",
+              "source": "https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html"
+            }
+          ]
+        }
+      }
+    }
+  },
   "account": {
-    "refreshed": false,
-    "enabled": false,
-    "status": "",
+    "refreshed": true,
+    "enabled": true,
+    "status": "paid",
     "trialRemaining": 0,
-    "usageThisMonth": 0,
+    "usageThisMonth": 56.8,
     "discountedUsage": 0,
-    "balanceDue": 0,
-    "couponType": "",
-    "org": "",
-    "owner": "",
-    "created": "",
+    "balanceDue": 56.8,
+    "couponType": "None",
+    "org": "polyverse-appsec",
+    "owner": "alex@polyverse.io",
+    "created": "2023-05-02",
     "creditCardLinked": false
   },
   "uiState": {
